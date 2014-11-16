@@ -38,3 +38,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'rufus-scheduler'
+# gem 'httparty'
+gem 'stock_quote'
+gem 'byebug'
