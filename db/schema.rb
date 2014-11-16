@@ -15,8 +15,8 @@ ActiveRecord::Schema.define(version: 20141115232049) do
 
   create_table "quotes", force: true do |t|
     t.string   "symbol"
-    t.decimal  "previous_close",        precision: 10, scale: 2
-    t.decimal  "last_trade_price_only", precision: 10, scale: 2
+    t.decimal  "previous_close",        precision: 10, scale: 3
+    t.decimal  "last_trade_price_only", precision: 10, scale: 3
     t.datetime "created_at"
     t.datetime "updated_at"
   end
