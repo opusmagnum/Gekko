@@ -1,2 +1,33 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<h1>Who‘s Gekko...</h1>
+
+<%#= @dax.inspect %>
+<%#= @nikkei.inspect %>
+<%#= @snp.inspect %>
+
+<table>
+  <tr>
+    <th>Symbol</th>
+    <th>Previous Close</th>
+    <th>Last Trade Price</th>
+    <th>Timestamp</th>
+  </tr>
+ 
+  <tr>
+    <td><%= @dax.symbol %></td>
+    <td><%= @dax.previous_close %></td>
+    <td><%= @dax.last_trade_price_only %></td>
+    <td><%= @dax.updated_at %></td>
+  </tr>
+  <tr>
+    <td><%= @nikkei.symbol %></td>
+    <td><%= @nikkei.previous_close %></td>
+    <td><%= @nikkei.last_trade_price_only %></td>
+    <td><%= @nikkei.updated_at %></td>
+  </tr>
+  <tr>
+    <td><%= @snp.symbol %></td>
+    <td><%= @snp.previous_close %></td>
+    <td><%= @snp.last_trade_price_only %></td>
+    <td><%= @snp.updated_at %></td>
+  </tr>    
+</table>

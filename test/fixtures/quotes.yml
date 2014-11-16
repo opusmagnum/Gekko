@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  symbol: MyString
+  previous_close: 9.99
+  last_trade_price_only: 9.99
+
+two:
+  symbol: MyString
+  previous_close: 9.99
+  last_trade_price_only: 9.99
